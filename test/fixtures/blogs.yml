@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ad: MyString
+  soyad: MyString
+  fakulte: MyString
+  bolum: MyString
+
+two:
+  ad: MyString
+  soyad: MyString
+  fakulte: MyString
+  bolum: MyString

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  ad: MyString
+  soyad: MyString
+  fakulte: MyString
+  bolum: MyString
+
+two:
+  user_id: 1
+  ad: MyString
+  soyad: MyString
+  fakulte: MyString
+  bolum: MyString

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User</title>
+  <%= stylesheet_link_tag "demo" %>
+  <%= stylesheet_link_tag "normalize" %>
+  <%= stylesheet_link_tag "component" %>
+  <%= stylesheet_link_tag    'default', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'default', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+
+<div class="container">
+			<!-- Top Navigation -->
+			<header>
+				<h1>Sticky Table Headers<span>Creating functional and flexible sticky table headers</span></h1>	
+			</header>
+			<div class="component">
+				<h2>Basic usage</h2>
+				
+			
+			<%= yield %>
+				
+			</div>
+		</div><!-- /container -->
+
+</body>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
+</html>
